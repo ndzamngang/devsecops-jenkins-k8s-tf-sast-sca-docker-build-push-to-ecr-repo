@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SONAR_TOKEN = credentials('Buggywebtoken') // SonarCloud token
+        SONAR_TOKEN = credentials('SONAR_TOKEN') // SonarCloud token
     }
 
     tools {

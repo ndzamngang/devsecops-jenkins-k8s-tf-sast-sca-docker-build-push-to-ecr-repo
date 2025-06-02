@@ -28,7 +28,7 @@ pipeline {
                 //withCredentials([string(credentialsId: 'SNYK_TOKEN', variable: 'SNYK_TOKEN')]) {
                    // sh 'snyk test --all-projects --severity-threshold=low'
                // }
-            }
+            //}
         }
 
         stage('Build') {
